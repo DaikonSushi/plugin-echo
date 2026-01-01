@@ -2,7 +2,7 @@ module github.com/DaikonSushi/plugin-echo
 
 go 1.24.0
 
-require github.com/DaikonSushi/bot-platform v0.0.0
+require github.com/DaikonSushi/bot-platform v0.0.1
 
 require (
 	golang.org/x/net v0.47.0 // indirect
@@ -14,4 +14,4 @@ require (
 )
 
 // 本地开发时使用（发布到 GitHub 前注释掉这行）
-replace github.com/DaikonSushi/bot-platform => /Users/hovanzhang/git_repo/napcat/bot-platform
+// replace github.com/DaikonSushi/bot-platform => /Users/hovanzhang/git_repo/napcat/bot-platform
